@@ -30,6 +30,7 @@ The clients navigate to our website and are greeted with our faces and a chatbox
 ### Coding Style
 
 To have a basic styleguide in our code we will make use of linters.
+See [standardjs](https://standardjs.com/rules.html) for a more indepth guideline of the linter.
 
 ### Static files
 
@@ -56,6 +57,7 @@ The following sources have been used to develop this project:
 https://socket.io/get-started/chat/  
 https://github.com/ju5tu5/barebonechat  
 https://devcenter.heroku.com/articles/github-integration  
+https://standardjs.com/rules.html  
 
 ## Authors
 
