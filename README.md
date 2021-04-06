@@ -33,22 +33,29 @@ To have a basic styleguide in our code we will make use of linters.
 
 ### Static files
 
-To have the application as simple as possible we will be server the golden trio, HTML, CSS and JS.
-The express server sends the HTML file to the client's browser which in turn interprets it and shows our wonderful faces.
+To have the application as simple as possible we will be serving the golden trio, HTML, CSS and JS.
+The express server sends the HTML to the client's browser which in turn interprets it and shows our wonderful faces.
 
 ### Heroku
-
-## Sources
-
-https://socket.io/get-started/chat/
-https://github.com/ju5tu5/barebonechat
-
+We have been using the automatic deployment feature of heroku.
+The one thing we had to take care of is using a process environment variable for the port. This way Heroku decides which port it can use.
+```JS
+  const port = process.env.PORT || 3000
+```
 ## Insights
+The following insights have been generated while discussing and developing this project:
 
 - Socket.io is a bi-directional event based communication method.
 - We going to write a lot of markdown.
-- Real-Time-Web is the most technological project of this minor
-- We will work in a Readme-Driven Development (RDD)
+- Real-Time-Web is the most technological project of this minor.
+- We will work in a Readme-Driven Development (RDD).
+
+## Sources
+The following sources have been used to develop this project:
+
+https://socket.io/get-started/chat/  
+https://github.com/ju5tu5/barebonechat  
+https://devcenter.heroku.com/articles/github-integration  
 
 ## Authors
 
