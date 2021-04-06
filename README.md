@@ -22,7 +22,7 @@ To create a basic 'chatbox' the easiest way would be to create a form with an un
 
 Our implementation of socket.io is relatively simple, it follows the example on [socket.io](https://socket.io/get-started/private-messaging-part-1/) and the [example Justus showed us](https://github.com/ju5tu5/barebonechat).
 
-The clients navigate to our website and are greeted with our faces and a chatbox on the rightside (desktop format). This established a socket connection that persists with each connected user. Everytime someone sends a message socket.io relays this event to the other clients.
+The clients navigate to our website and are greeted with our faces and a chatbox on the rightside <sub>(desktop format)</sub>. This established a socket connection that persists with each connected user. Everytime someone sends a message socket.io relays this event to the other clients.
 
 ![Socket.io communication](https://user-images.githubusercontent.com/13199349/113706950-851bd800-96df-11eb-86b0-82f44f54190a.jpg)
 
