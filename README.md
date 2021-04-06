@@ -1,12 +1,8 @@
-# Spacecoders
+# Real Time Web
 
-<!-- ![spaceCoders]() -->
-<img alt="spaceCoders" src="https://user-images.githubusercontent.com/13199349/113694840-898cc480-96d0-11eb-98c9-0d0a01c92708.png">
+> ## [Heroku spaceCoders](https://r2d2-team.herokuapp.com/)
+><img src="https://user-images.githubusercontent.com/13199349/113708240-46871d00-96e1-11eb-8bf9-a5589536d812.png"></img>
 
-# REAL TIME WEB
-
-![HERE A DEMO IMAGE](https://jajjaja)
-[DEMO URL](#)
 
 ## Problem
 
@@ -23,6 +19,13 @@ For this we need the following **dependencies**:
 To create a basic 'chatbox' the easiest way would be to create a form with an unordered list. The list will get children whenever a user sends a message.
 
 ### Socket.io
+
+Our implementation of socket.io is relatively simple, it follows the example on [socket.io](https://socket.io/get-started/private-messaging-part-1/) and the [example Justus showed us](https://github.com/ju5tu5/barebonechat).
+
+The clients navigate to our website and are greeted with our faces and a chatbox on the rightside (desktop format). This established a socket connection that persists with each connected user. Everytime someone sends a message socket.io relays this event to the other clients.
+
+![Socket.io communication](https://user-images.githubusercontent.com/13199349/113706950-851bd800-96df-11eb-86b0-82f44f54190a.jpg)
+
 
 ### Coding Style
 
@@ -41,6 +44,11 @@ https://socket.io/get-started/chat/
 https://github.com/ju5tu5/barebonechat
 
 ## Insights
+
+- Socket.io is a bi-directional event based communication method.
+- We going to write a lot of markdown.
+- Real-Time-Web is the most technological project of this minor
+- We will work in a Readme-Driven Development (RDD)
 
 ## Authors
 
