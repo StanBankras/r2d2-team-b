@@ -30,7 +30,7 @@ The clients navigate to our website and are greeted with our faces and a chatbox
 ### Coding Style
 
 To have a basic styleguide in our code we will make use of linters.
-See [standardjs](https://standardjs.com/rules.html) for a more indepth guideline of the linter.
+See [standardjs](https://standardjs.com/rules.html) for a more in-depth guideline of the linter.
 
 ### Static files
 
